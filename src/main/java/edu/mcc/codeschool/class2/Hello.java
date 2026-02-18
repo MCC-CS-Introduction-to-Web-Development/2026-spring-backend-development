@@ -1,4 +1,4 @@
-package class2;
+package edu.mcc.codeschool.class2;
 
 import java.util.Scanner;
 

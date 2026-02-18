@@ -1,4 +1,4 @@
-package class5;
+package edu.mcc.codeschool.class5;
 
 public class Car extends Vehicle implements SteeringBehavior {
 

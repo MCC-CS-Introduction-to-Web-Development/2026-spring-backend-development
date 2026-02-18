@@ -1,4 +1,4 @@
-package class4;
+package edu.mcc.codeschool.class4;
 
 import java.util.Random;
 import java.util.Scanner;

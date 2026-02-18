@@ -1,4 +1,4 @@
-package class7;
+package edu.mcc.codeschool.class7;
 
 import java.util.ArrayList;
 import java.util.Arrays;

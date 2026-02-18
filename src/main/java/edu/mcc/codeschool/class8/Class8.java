@@ -1,4 +1,4 @@
-package class8;
+package edu.mcc.codeschool.class8;
 
 import java.io.BufferedWriter;
 import java.io.File;

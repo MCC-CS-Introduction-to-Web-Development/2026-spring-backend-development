@@ -1,4 +1,4 @@
-package class6;
+package edu.mcc.codeschool.class6;
 
 import java.util.ArrayList;
 import java.util.Arrays;
