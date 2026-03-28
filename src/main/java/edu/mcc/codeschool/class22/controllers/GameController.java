@@ -30,7 +30,7 @@ public class GameController {
     }
 
     @GetMapping("/hello")
-    public ResponseEntity<String> listGames(){
+    public ResponseEntity<String> sayHello(){
         return ResponseEntity.ok("Hello from spring boot game controller");
     }
 
