@@ -1,0 +1,17 @@
+name: ci-cd
+on:
+  push:
+    branches: [main]
+jobs:
+  build:
+    runs-on: [ubuntu-latest]
+    steps:
+      - name: Checkout
+        uses: actions/checkout@main
+      - name: Setup Java
+        uses: actions/setup-java@main
+        with:
+          distribution: 'temurin'
+          java-version: '25'
+      - name: Build and Test
+        run: ./gradlew clean build -x test
