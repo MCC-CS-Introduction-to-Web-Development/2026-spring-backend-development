@@ -29,6 +29,11 @@ public class GameController {
         return ResponseEntity.ok(gameService.listGames());
     }
 
+    @GetMapping("/hello")
+    public ResponseEntity<String> listGames(){
+        return ResponseEntity.ok("Hello from spring boot game controller");
+    }
+
     @GetMapping("/{id}")
     public ResponseEntity<Game> getGameById(@PathVariable String id){
         Optional<Game> game =  gameService.getGameById(id);
