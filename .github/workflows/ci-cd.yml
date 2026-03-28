@@ -16,4 +16,4 @@ jobs:
       - name: Build and Test
         run: |
             chmod 777 gradlew
-            ./gradlew clean build -x test
+            ./gradlew clean build test
