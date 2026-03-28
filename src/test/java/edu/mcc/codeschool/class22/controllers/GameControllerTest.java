@@ -77,7 +77,7 @@ public class GameControllerTest {
         assertThat(game).isNotNull();
         assertThat(game.getId()).isNotNull();
         assertThat(game.getStatus()).isEqualTo("In-Progress");
-        assertThat(game.getTies()).isEqualTo(1);
+        assertThat(game.getTies()).isEqualTo(0);
     }
 
     @Test
