@@ -14,4 +14,6 @@ jobs:
           distribution: 'temurin'
           java-version: '25'
       - name: Build and Test
-        run: ./gradlew clean build -x test
+        run: |
+            chmod 777 gradlew
+            ./gradlew clean build -x test
